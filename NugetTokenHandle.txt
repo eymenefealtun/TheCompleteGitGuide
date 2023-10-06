@@ -1,0 +1,5 @@
+dotnet nuget add source --username eymenefealtun --password <githubKey> --name github https://nuget.pkg.github.com/<githubUsername>/index.json
+
+allows user to push NuGet package to GitHub repository:
+
+dotnet nuget push --source github LexiExtract/bin/debug/LexiExtract.2.0.0.nupkg --api-key <githubKey>
